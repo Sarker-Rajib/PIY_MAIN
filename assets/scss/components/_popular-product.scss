@@ -1,0 +1,128 @@
+.popular-product{
+   padding: 40px 0;
+
+   .container{
+      max-width: 1250px;
+   }
+
+   .section-header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      h2{
+         font-family: "GraphikSemibold";
+         font-size: 32px;
+         span{
+            font-family: "GraphikLight";
+         }
+      }
+
+      a{
+         background: #F5F5F5;
+         color: #000;
+         font-family: "GraphikMedium";
+         font-size: 15px;
+         padding: 12px 25px;
+         border-radius: 6px;
+         span{
+            margin-left: 5px;
+         }
+
+         &:hover{
+            color: #DC3E38;
+         }
+      }
+   }
+
+   .card-items{
+      padding: 25px 0;
+
+      .item-card{
+         height: 100%;
+         border: 1px solid #E6E6E6;
+         border-radius: 6px;
+         width: 100%;
+         padding: 20px;
+         position: relative;
+         overflow: hidden;
+
+         .text{
+            .tag{
+               background: #DC3E38;
+               color: #fff;
+               font-family: "GraphikSemibold";
+               font-size: 13px;
+               display: inline-block;
+               border-radius: 22px;
+               padding: 5px 10px;
+               margin-bottom: 20px;
+
+               span{
+                  margin-inline: 5px;
+               }
+            }
+
+            h4{
+               font-family: "GraphikMedium";
+               font-size: 18px;
+            }
+
+            .description{
+               font-family: "GraphikRegular";
+               font-size: 15px;
+               line-height: 29px;
+               white-space: pre-line;
+            }
+
+            .price{
+               font-family: "GraphikMedium";
+               font-size: 18px;
+               margin-top: 15px;
+            }
+         }
+
+         .arrow-n{
+            position: absolute;
+            background: #DC3E38;
+            right: 0;
+            bottom: 0;
+            border-top-left-radius: 6px;
+
+            i{
+               color: #fff;
+               font-size: 13px;
+               height: 45px;
+               width: 50px;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+            }
+         }
+      }
+   }
+
+   .service-criteria{
+      margin-top: 25px;
+      padding: 40px 20px;
+      background: #FFF7F7;
+      border-radius: 6px;
+
+      span{
+         i{
+            font-size: 35px;
+            color: #DC3E38;
+         }
+      }
+
+      h5{
+         font-family: "GraphikMedium";
+         font-size: 19px;
+      }
+
+      p{
+         font-family: "GraphikRegular";
+         font-size: 16px;
+      }
+   }
+}

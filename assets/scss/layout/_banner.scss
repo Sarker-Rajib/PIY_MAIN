@@ -1,0 +1,133 @@
+.banner{
+   padding: 50px 0;
+   .banner-description{
+      position: relative;
+      background: url(../images/banner/main-banner-bg.png) no-repeat center center/cover;
+      padding: 41px;
+      color: #fff;
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+
+      .tag{
+         font-family: "GraphikSemibold";
+         font-size: 12px;
+         padding: 5px 10px;
+         border-radius: 22px;
+         color: #fff;
+         background: #ffffff23;
+      }
+      .mini-head{
+         font-size: 32px;
+         font-family: "GraphikLight";
+      }
+      h2{
+         font-size: 82px;
+         font-family: "LicoriceRegular";
+         line-height: 60px;
+         padding-bottom: 40px;
+      }
+
+      p{
+         font-family: "GraphikRegular";
+         font-size: 17px;
+         color: #fff;
+         @media(min-width: 1366px){
+            white-space: pre-line;
+         }
+
+         span{
+               color: #B2B2B2;
+         }
+      }
+      
+      .bttn{
+         color: #fff;
+         font-family: "GraphikSemibold";
+         font-size: 15px;
+         display: inline-block;
+         border-radius: 22px;
+         padding: 7px 25px;
+         margin: 40px 5px 20px 0;
+
+         i{
+            font-size: 15px;
+            margin-left: 5px;
+         }
+
+         &.red-button{
+            background: #DC3E38;
+         }
+         &.play-button{
+            border: 2px solid #FFFFFF;
+         }
+      }
+
+      .camera{
+         position: absolute;
+         max-width: 325px;
+         top: 60px;
+         right: 40px;
+      }
+   }
+
+   .packs{
+      .tag{
+         font-family: "GraphikSemibold";
+         font-size: 12px;
+         padding: 7px 12px;
+         border-radius: 22px;
+         color: #fff;
+         background: rgba(#000, 0.32);
+      }
+
+      h2{
+         font-size: 32px;
+         font-family: "GraphikLight";
+         color: #fff;
+         line-height: 37px;
+
+         span{
+            font-family: "LicoriceRegular";
+            font-size: 61px;
+         }
+      }
+
+      .color{
+         background: url(../images/banner/1.png) no-repeat center center/cover;
+         h2{
+            text-shadow: 0 2px 4px rgba(#4F122D, 0.65);
+         }
+         padding: 50px 15px 20px;
+      }
+      .ink{
+         background: url(../images/banner/2.png) no-repeat center center/cover;
+         h2{
+            text-shadow: 0 2px 4px rgba(#A42621, 0.80);
+         }
+         padding: 50px 15px 20px;
+      }
+      .eco{
+         background: url(../images/banner/3.png) no-repeat center center/cover;
+         h2{
+            text-shadow: 0 2px 4px rgba(#507D3C, 0.70);
+         }
+         padding: 50px 15px 20px;
+      }
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+.brand-slider{
+   .container{
+      max-width: 1250px;
+   }
+}

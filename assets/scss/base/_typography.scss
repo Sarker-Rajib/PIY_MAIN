@@ -1,0 +1,6 @@
+@use '../abstracts/variables';
+
+body {
+  font-family: "GraphikRegular";
+  color: variables.$color-black;
+}

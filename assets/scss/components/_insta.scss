@@ -1,0 +1,62 @@
+.insta{
+   padding: 50px 0 100px;
+
+   @media(max-width: 767px){
+      padding: 40px 0 60px;
+   }
+
+   .container{
+      max-width: 1250px;
+   }
+
+   .section-header{
+      .mini-head{
+         font-size: 32px;
+         font-family: "GraphikLight";
+         line-height: 0px;
+         padding-bottom: 5px;
+
+      }
+
+      h2{
+         font-family: "LicoriceRegular";
+         font-size: 82px;
+         padding-bottom: 25px;
+      }
+
+      .view-button{
+         background: #DC3E38;
+         color: #fff;
+         font-family: "GraphikSemibold";
+         font-size: 15px;
+         display: inline-block;
+         border-radius: 22px;
+         padding: 7px 25px;
+         margin-bottom: 20px;
+
+         i{
+            font-size: 15px;
+            margin-left: 5px;
+         }
+      }
+   }
+
+   .items{
+
+      .item-card{
+         height: 100%;
+         background: #fff;
+         border-radius: 6px;
+         width: 100%;
+         position: relative;
+         overflow: hidden;
+         box-shadow: 0 6px 16px rgba(#000, 0.16);
+
+         img{
+            width: 100%;
+         }
+      }
+   }
+
+
+}

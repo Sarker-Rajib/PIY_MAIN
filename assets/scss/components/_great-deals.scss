@@ -1,0 +1,146 @@
+.great-deals{
+   padding: 50px 0;
+   background: linear-gradient(-65deg, rgba(#ffffff, 0.24), rgba(#d8d8d8d1, 0.24));
+   
+   .container{
+      max-width: 1250px;
+   }
+
+   .section-header{
+      .mini-head{
+         font-size: 32px;
+         font-family: "GraphikLight";
+         padding: 0;
+      }
+      h2{
+         font-family: "LicoriceRegular";
+         font-size: 82px;
+         line-height: 61px;
+      }
+      p{
+         font-family: "GraphikRegular";
+         font-size: 17px;
+         padding-left: 20px;
+         padding-bottom: 25px;
+
+         span{
+            font-family: "GraphikMedium";
+            font-size: 27px;
+            color: #DC3E38;
+         }
+
+         .excla{
+            font-family: "LicoriceRegular";
+            font-size: 44px;
+            color: #000;
+         }
+      }
+
+      .view-button{
+         background: #DC3E38;
+         color: #fff;
+         font-family: "GraphikSemibold";
+         font-size: 15px;
+         display: inline-block;
+         border-radius: 22px;
+         padding: 7px 25px;
+         margin-bottom: 20px;
+
+         i{
+            font-size: 15px;
+            margin-left: 5px;
+         }
+      }
+      
+      .giftbox{
+         position: absolute;
+         right: -100px;
+         bottom: -200px;
+         @media(max-width: 767px){
+           right: 0;
+           z-index: -1;
+         }
+      }
+   }
+
+   .items{
+      padding: 25px 0;
+
+      .item-card{
+         height: 100%;
+         background: #fff;
+         border-radius: 6px;
+         width: 100%;
+         padding: 20px;
+         position: relative;
+         overflow: hidden;
+         box-shadow: 0 6px 16px rgba(#000, 0.16);
+
+         .image{
+            p{
+               display: inline-block;
+               color: #DC3E38;
+               font-family: "GraphikSemibold";
+               font-size: 13px;
+               background: #FFECEB;
+               border-radius: 22px;
+               padding: 5px 15px;
+            }
+         }
+
+
+         .text{
+            .tag{
+               background: #DC3E38;
+               color: #fff;
+               font-family: "GraphikSemibold";
+               font-size: 13px;
+               display: inline-block;
+               border-radius: 22px;
+               padding: 5px 10px;
+               margin-bottom: 20px;
+
+               span{
+                  margin-inline: 5px;
+               }
+            }
+
+            h4{
+               font-family: "GraphikMedium";
+               font-size: 18px;
+            }
+
+            .description{
+               font-family: "GraphikRegular";
+               font-size: 15px;
+               line-height: 29px;
+               white-space: pre-line;
+            }
+
+            .price{
+               font-family: "GraphikMedium";
+               font-size: 18px;
+               margin-top: 15px;
+            }
+         }
+
+         .arrow-n{
+            position: absolute;
+            background: #DC3E38;
+            right: 0;
+            bottom: 0;
+            border-top-left-radius: 6px;
+
+            i{
+               color: #fff;
+               font-size: 13px;
+               height: 45px;
+               width: 50px;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+            }
+         }
+      }
+   }
+}

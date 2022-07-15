@@ -1,0 +1,204 @@
+.header{
+   .header-top{
+      border-bottom: 1px dashed #E6E6E6;
+      .discount{
+         background: #DC3E38;
+         text-align: center;
+         p{
+            font-family: "GraphikRegular";
+            font-size: 14px;
+            color: #fff;
+            padding: 7px 0;
+         }
+      }
+
+      .header-top-child{
+         padding: 18px 0;
+         .contacts{
+            .img-trustpilot{
+               img{
+                  width: 100%;
+                  max-width: 95px;
+                  margin-right: 5px;
+               }
+   
+            }
+   
+            a{
+               color: #000;
+               font-family: "GraphikRegular";
+               font-size: 15px;
+               margin-left: 25px;
+   
+               span{
+                  color: #DC3E38;
+                  margin-right: 5px;
+               }
+            }
+         }
+      }
+   }
+
+   .main-header{
+      .navbar{
+         .navbar-brand{
+            max-width: 190px;
+
+            @media(max-width: 575px){
+               max-width: 120px;
+            }
+         }
+
+         .navbar-nav{
+            .nav-item{
+               &:not(:last-child){
+                  margin-right: 10px;
+               }
+
+               .nav-link{
+                  font-family: "GraphikRegular";
+                  font-size: 16px;
+                  color: #000;
+
+                  &:hover{
+                     color: #DC3E38;
+                  }
+               }
+            }
+         }
+      }
+
+      .mobile-nav{
+         @media(max-width: 1199px){
+         top: 100%;
+         left: 0;
+         width: 100%;
+         background: rgba(255, 255, 255, 0.965);
+         z-index: 999;
+         position: absolute;
+         
+            ul{
+               padding: 25px;
+            }
+         }
+      }
+
+      .User-and-cart{
+         .user{
+            .name{
+               font-family: "GraphikMedium";
+               font-size: 14px;
+
+               span{
+                  font-family: "GraphikRegular";
+                  font-size: 14px;
+                  margin-right: 5px;
+               }
+            }
+            .account{
+               font-family: "GraphikMedium";
+               font-size: 17px;
+               color: #000;
+               span{
+                  color: #DC3E38;
+               }
+            }
+         }
+
+         .cart{
+            .fa-shopping-cart{
+               font-size: 22px;
+               color: #DC3E38;
+            }
+
+            .number{
+               background: #FFECEB;
+               display: inline-block;
+               padding-inline: 15px;
+               border-radius: 10px;
+               color: #DC3E38;
+            }
+         }
+      }
+   }
+
+   .header-bottom{
+      background: #1D1D1D;
+
+      .dropdown{
+         position: relative;
+         width:fit-content;
+         .btn-dropdown{
+            background: #DC3E38;
+            color: #fff;
+            border-radius: 0;
+            font-family: "GraphikMedium";
+            font-size: 15px;
+            padding: 20px 25px; 
+
+            span{
+               margin-right: 10px;
+            }
+   
+            &:focus{
+               box-shadow: none;
+            }
+         }
+   
+         .dropdown-menu{
+            position: absolute;
+            top: 100%;
+            width: 100%;    
+            border-radius: 0;        
+            background: #DC3E38;
+
+            .dropdown-item{
+               color: #fff;
+               margin: 5px 0;
+               span{
+                  margin-right: 10px;
+
+                  i{
+                     font-size: 15px;
+                  }
+               }
+
+               &:hover{
+                  color: #DC3E38;
+                  background: #fff;
+               }
+            }
+         }
+      }
+
+      .search-area{
+         .src-input{
+            background: #fff;
+            border-top-left-radius: 7px;
+            border-bottom-left-radius: 7px;
+            width: 385px;
+            padding-left: 15px;
+            @media(max-width: 991px){
+               width: 250px;
+            }
+
+            input{
+               border: none;
+               width: 100%;
+               padding-left: 10px;
+            }
+         }
+ 
+         .btn-search{
+            background: #DC3E38;
+            color: #fff;
+            font-family: "GraphikMedium";
+            font-size: 15px;
+            padding: 12px 15px;
+            border-top-right-radius: 7px;
+            border-bottom-right-radius: 7px;
+            border: none;
+         }
+      }
+   }
+}

@@ -1,0 +1,92 @@
+.more-inspiration{
+   padding-bottom: 50px;
+   @media(max-width: 767px){
+      padding-bottom: 35px;
+   }
+   
+   .container{
+      max-width: 1250px;
+   }
+
+   .section-header{
+      padding-bottom: 35px;
+      p{
+         font-family: "GraphikLight";
+         font-size: 32px;
+      }
+
+      h2{
+         font-family: "LicoriceRegular";
+         font-size: 82px;
+         line-height: 60px;
+         color: #000;
+      }
+
+      .btn-red{
+         background: #DC3E38;
+         color: #fff;
+         font-family: "GraphikMedium";
+         font-size: 15px;
+         padding: 12px 25px;
+         border-radius: 23px;
+         span{
+            margin-left: 5px;
+         }
+
+         &:hover{
+            color: #000;
+         }
+      }
+   }
+
+   .content-inner{
+      .item{
+
+         .image{
+            height: 200px;
+            border-radius: 6px;
+            position: relative;
+            overflow: hidden;
+            margin-bottom: 30px;
+
+            &.one{
+               background: url(../images/More-inspiration/1.png) no-repeat center center/cover;
+            }
+
+            &.two{
+               background: url(../images/More-inspiration/2.png) no-repeat center center/cover;
+            }
+
+            span{
+               position: absolute;
+               display: inline-block;
+               top: 0;
+               right: 0;
+               background: #000;
+               color: #fff;
+               padding: 5px;
+               font-family: "GraphikSemibold";
+               font-size: 15px;
+               border-bottom-left-radius: 6px;
+            }
+         }
+
+         .text{
+            h5{
+               font-size: 24px;
+               font-family: "GraphikMedium";
+               line-height: 31px;
+               padding-bottom: 5px;
+            }
+            p{
+               line-height: 33px;
+               font-size: 16px;
+               font-family: "GraphikRegular";
+               @media(min-width: 1400px){
+                  white-space: pre-line;
+               }
+            }
+         }
+      }
+   }
+}

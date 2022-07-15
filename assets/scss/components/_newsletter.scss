@@ -1,0 +1,86 @@
+.newsletter{
+   background: url(../images/newsletter/bgn.png) no-repeat center center/cover;
+   color: #fff;
+   padding: 55px 0;
+
+   .container{
+      max-width: 1250px;
+   }
+   .image{
+      position: relative;
+      img{
+         @media(max-width: 991px){
+            position: static;
+            width: 100%;
+            max-width: 350px;
+         }
+         position: absolute;
+         top: -100px;
+         left: -50px;
+      }
+   }
+   .description{
+      .mini-head{
+         font-size: 27px;
+         font-family: "GraphikLight";
+      }
+
+      h2{
+         font-family: "LicoriceRegular";
+         font-size: 78px;
+         line-height: 56px;
+         padding-bottom: 40px;
+      }
+      .brief{
+         font-family: "GraphikRegular";
+         font-size: 16px;
+         line-height: 27px;
+         @media(min-width: 1366px){
+            white-space: pre-line;
+         }
+      }
+   }
+
+   .subscribe{
+      input{
+         background: #fff;
+         border: none;
+         font-family: "GraphikRegular";
+         font-size: 16px;
+         width: 100%;
+         max-width: 310px;
+         padding: 10px 20px;
+         border-top-left-radius: 28px;
+         border-bottom-left-radius: 28px;
+         @media(min-width: 992px){
+            max-width: 270px;
+         }
+         @media(min-width: 1200px){
+            max-width: 310px;
+         }
+         @media(max-width: 575px){
+            max-width: 230px;
+         }
+
+         &::placeholder{
+            color: #000;
+         }
+      }
+
+      .sub-btn{
+         background: #000;
+         color: #fff;
+         border-top-right-radius: 28px;
+         border-bottom-right-radius: 28px;
+         padding: 11px 20px;
+         margin: 0;
+         border: none;
+         
+      }
+   }
+
+   label{
+      font-family: "GraphikRegular";
+      font-size: 16px;
+   }
+}

@@ -1,0 +1,33 @@
+@font-face {
+   font-family: "GraphikLight";
+   src: url(../fonts/GraphikLight.otf);
+}
+
+@font-face {
+   font-family: "GraphikRegular";
+   src: url(../fonts/GraphikRegular.otf);
+}
+
+@font-face {
+   font-family: "GraphikMedium";
+   src: url(../fonts/GraphikMedium.otf);
+}
+
+@font-face {
+   font-family: "GraphikSemibold";
+   src: url(../fonts/GraphikSemibold.otf);
+}
+
+@font-face {
+   font-family: "GraphikBold";
+   src: url(../fonts/GraphikBold.otf);
+}
+
+@font-face {
+   font-family: "LicoriceRegular";
+   src: url(../fonts/Licorice-Regular.ttf);
+}
+
+h1, h2, h3, h4, h5, h6, ol, ul, p, address, strong, i, a{
+   font-smooth: always;
+}
