@@ -65,10 +65,18 @@
             right: 30px;
             bottom: 30px;
             z-index: 999;
+            transition: all 0.2s ease-in-out;
+
             
             span{
                font-family: "GraphikLight";
             }
+         }
+      }
+
+      a:hover{
+         .title{
+            color: rgb(255, 120, 120);
          }
       }
 
@@ -102,6 +110,7 @@
                font-size: 15px;
                padding: 12px 25px;
                border-radius: 23px;
+               transition: all 0.2s ease-in-out;
                span{
                   margin-left: 5px;
                }

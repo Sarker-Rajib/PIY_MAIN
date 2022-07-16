@@ -14,6 +14,25 @@
 
       .header-top-child{
          padding: 18px 0;
+         @media(max-width: 767px){
+            padding: 5px 0;
+         }
+
+         .first{
+            @media(max-width: 575px){
+               width: 72%;
+            }
+         }
+         .second{
+            @media(max-width: 575px){
+               width: 28%;
+
+               .languag{
+                  padding: 0;
+               }
+            }
+         }
+
          .contacts{
             .img-trustpilot{
                img{
@@ -29,10 +48,40 @@
                font-family: "GraphikRegular";
                font-size: 15px;
                margin-left: 25px;
+
+               @media(max-width: 767px){
+                  margin-left: 10px;
+               }
    
                span{
                   color: #DC3E38;
                   margin-right: 5px;
+               }
+            }
+         }
+         .language-select{
+            button{
+               background: #fff;
+               color: #000;
+               border: none;
+               padding: 0 5px;
+               margin: 0;
+               font-size: 15px;
+               font-family: "GraphikRegular";
+
+               &:focus{
+                  box-shadow: none;
+               }
+            }
+
+            .dropdown-menu{
+               box-shadow: 0 2px 9px rgba(#D0D0D0, 0.87);
+               border: none;
+               .dropdown-item{
+                  &:hover{
+                     background: #DC3E38;
+                     color: #fff;
+                  }
                }
             }
          }
@@ -127,7 +176,7 @@
 
       .dropdown{
          position: relative;
-         width:fit-content;
+
          .btn-dropdown{
             background: #DC3E38;
             color: #fff;
@@ -135,6 +184,9 @@
             font-family: "GraphikMedium";
             font-size: 15px;
             padding: 20px 25px; 
+            @media(max-width: 767px){
+               width: 100%;
+            }
 
             span{
                margin-right: 10px;
@@ -176,10 +228,14 @@
             background: #fff;
             border-top-left-radius: 7px;
             border-bottom-left-radius: 7px;
-            width: 385px;
+            width: 100%;
+            max-width: 385px;
             padding-left: 15px;
             @media(max-width: 991px){
                width: 250px;
+            }
+            @media(max-width: 767px){
+               min-width: calc(100% - 81px);
             }
 
             input{

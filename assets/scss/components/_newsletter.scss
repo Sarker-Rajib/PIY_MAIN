@@ -42,6 +42,8 @@
    }
 
    .subscribe{
+      display: flex;
+      align-items: center;
       input{
          background: #fff;
          border: none;
@@ -49,7 +51,7 @@
          font-size: 16px;
          width: 100%;
          max-width: 310px;
-         padding: 10px 20px;
+         padding: 11px 20px;
          border-top-left-radius: 28px;
          border-bottom-left-radius: 28px;
          @media(min-width: 992px){
