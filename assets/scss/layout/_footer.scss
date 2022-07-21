@@ -27,6 +27,11 @@
                font-size: 15px;
                color: #9F9F9F;
                line-height: 33px;
+               transition: all 0.2s ease-in-out;
+            }
+
+            a:hover{
+               color: #DC3E38;
             }
          }
       }
