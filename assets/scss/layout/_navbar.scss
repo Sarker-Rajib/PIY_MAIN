@@ -91,8 +91,10 @@
                   left: -10px;
                   width: 120%;
                   box-shadow: 0 2px 9px rgba(#D0D0D0, 0.87);
+                  border-radius: 3px;
                   border: none;
                   display: none;
+                  overflow: hidden;
 
                   .dropdown-item{
                      padding: 5px 10px;
@@ -128,16 +130,16 @@
                   position: absolute;
                   top: 100%;
                   left: 0;
-                  z-index: 999;
                   background: #fff;
-                  width: auto;
-                  padding: 0;
-                  height: 0;
-                  opacity: 0;
+                  min-width: 135px;
                   box-shadow: 0 2px 9px rgba(#D0D0D0, 0.87);
                   border-radius: 3px;
                   margin-bottom: 5px;
                   z-index: -999;
+                  overflow: hidden;
+                  padding: 0;
+                  height: 0;
+                  opacity: 0;
 
                   @media (max-width: 1199px) {
                      position: static;
