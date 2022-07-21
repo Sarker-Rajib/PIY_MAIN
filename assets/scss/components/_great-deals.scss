@@ -75,6 +75,33 @@
          position: relative;
          overflow: hidden;
          box-shadow: 0 6px 16px rgba(#000, 0.16);
+         
+         @media(max-width: 767px){
+            display: flex;
+
+            img{
+               @media(max-width: 767px){
+                  max-width: 180px;
+               }
+            }
+
+            .text{
+               padding: 0 15px;
+            }
+         }
+
+         @media(max-width: 480px){
+
+            img{
+               @media(max-width: 767px){
+                  max-width: 120px;
+               }
+            }
+
+            .text{
+               padding: 0 15px;
+            }
+         }
 
          .image{
             p{

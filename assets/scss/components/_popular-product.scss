@@ -123,11 +123,20 @@
       h5{
          font-family: "GraphikMedium";
          font-size: 19px;
+         
+         @media(min-width: 768px) and (max-width: 992px){
+            font-size: 16px;
+            padding: 3px 0;
+         }
       }
 
       p{
          font-family: "GraphikRegular";
          font-size: 16px;
+
+         @media(min-width: 768px) and (max-width: 992px){
+            font-size: 15px;
+         }
       }
    }
 }

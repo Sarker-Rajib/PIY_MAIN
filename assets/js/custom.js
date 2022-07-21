@@ -1,6 +1,7 @@
 {
    var swiper = new Swiper(".brandSwiper", {
      freeMode: true,
+     autoplay: true,
      loop: true,
      breakpoints: {
        // when window width is >= 320px

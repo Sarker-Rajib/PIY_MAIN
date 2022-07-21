@@ -74,11 +74,17 @@
          }
 
          .text{
-            h5{
+            a{
                font-size: 24px;
                font-family: "GraphikMedium";
                line-height: 31px;
                padding-bottom: 5px;
+               color: #000;
+               transition: all 0.2s ease-in-out;
+            
+               &:hover{
+                  color: #DC3E38;
+               }
             }
             p{
                line-height: 33px;
